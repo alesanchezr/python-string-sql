@@ -1,6 +1,6 @@
-# SQL highlighting in Python multiline strings for VS Code 
+# SQL and HTML highlighting in Python multiline strings for VS Code 
 
-Adds syntax highlight support for python multiline SQL strings in VS Code.
+Adds syntax highlight support for python multiline SQL and HTML strings in VS Code.
 
 ## Installation
 
@@ -13,10 +13,14 @@ Install `python-string-sql` from extensions (`ctrl + shift + x` or `cmd + shift 
 
 ## Usage
 
+#### For SQL Strings:
 Insert `--sql`, `--beginsql`, or `--begin-sql` at the beginning of the part of the string you would like highlighted and a semicolon, `--endsql`, or `--end-sql` at the end of the highlighted section.
 
+#### For SQL Strings:
+Insert `--html`, `--beginhtml`, or `--begin-html` at the beginning of the part of the string you would like highlighted and a semicolon, `--endhtml`, or `--end-html` at the end of the highlighted section.
+
 ### Snippets
-begin typing `sql` and the autocomplete snippet will appear:
+begin typing `sql` or `html` and the autocomplete snippet will appear:
 
 ![Snippet](docs/snippet.gif)
 
