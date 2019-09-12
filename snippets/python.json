@@ -9,5 +9,16 @@
             "\"\"\""
 	    ],
 	    "description": "SQL highlighted string"
+    },
+	"HTML_highlighted_string": {
+	    "prefix": "html",
+	    "body": [
+            "\"\"\"",
+            "--html",
+            "${1| ,<div></div>|}",
+            "--end-html",
+            "\"\"\""
+	    ],
+	    "description": "HTML highlighted string"
     }
 }
