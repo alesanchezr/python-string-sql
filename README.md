@@ -16,7 +16,7 @@ Install `python-string-sql` from extensions (`ctrl + shift + x` or `cmd + shift 
 #### For SQL Strings:
 Insert `--sql`, `--beginsql`, or `--begin-sql` at the beginning of the part of the string you would like highlighted and a semicolon, `--endsql`, or `--end-sql` at the end of the highlighted section.
 
-#### For SQL Strings:
+#### For HTML Strings:
 Insert `--html`, `--beginhtml`, or `--begin-html` at the beginning of the part of the string you would like highlighted and a semicolon, `--endhtml`, or `--end-html` at the end of the highlighted section.
 
 ### Snippets
